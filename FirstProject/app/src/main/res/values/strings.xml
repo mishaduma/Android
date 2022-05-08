@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="goods">Товары</string>
+    <string name="trade_points">Торговые точки</string>
+    <string name="orders">Заказы</string>
+    <string name="add">Добавить</string>
+    <string name="new_good">Новый товар</string>
+    <string name="new_trade_point">Новая торговая точка</string>
+    <string name="new_order">Новый заказ</string>
+    <string name="name">Наименование</string>
+    <string name="measure">Единицы измерения</string>
+    <string name="price">Цена, \u20BD</string>
+    <string name="address">Адрес</string>
+    <string name="choose_trade_point">Выберите торговую точку</string>
+    <string name="choose_good">Выберите товар</string>
+    <string name="choose_count">Укажите количество</string>
+    <string name="full_price">Полная стоимость</string>
+    <string name="rub">\u20BD</string>
+    <string name="edit_button">Кнопка редактирования</string>
+    <string name="delete_button">Кнопка удаления</string>
+    <string name="_0">0</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    card_view:cardBackgroundColor="@color/card_background"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <!--<TextView
+            android:id="@+id/order_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/order_good_name"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/order_trade_point_name"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/order_good_name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/count_measure"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/full_price"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/count_measure"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/delete_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="1"
+            android:backgroundTint="#0E0909"
+            android:contentDescription="@string/delete_button"
+            android:src="@drawable/pdelete"
+            card_view:tint="@color/trash_bin"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
